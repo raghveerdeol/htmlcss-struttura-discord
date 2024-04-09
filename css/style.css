@@ -6,7 +6,6 @@
 nav{
     background-color: #255ee9;
     justify-content: space-around;
-    padding: 2%;
 }
 a{
     text-decoration: none;
@@ -26,15 +25,20 @@ header>main{
 .flex-end{
     justify-content: flex-end;
 }
-.wht-button{
-    background-color: #ffffff;
+button{
     border: none;
     border-radius: 1rem;
     padding: 1%;
+}
+.wht-button{
+    background-color: #ffffff;
+}
+.blk-button{
+    background-color: black;
+    color: #ffffff;
 }
 .display-container.column{
     flex-direction: column;
     align-items: center;
     color: white;
-    padding: 4%;
 }

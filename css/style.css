@@ -54,6 +54,9 @@ footer{
 .space-around{
     justify-content: space-around;
 }
+.space-between{
+    justify-content: space-between;
+}
 /* display  */
 /* tasti  */
 button{
@@ -70,12 +73,12 @@ button{
     background-color: black;
     color: #ffffff;
 }
-section>button{
-    background-color: #7289da;
-}
 /* tasti  */
 .bk-grey{
     background-color: #f6f6f6;
+}
+.bg-blu{
+    background-color: #7289da;
 }
 li::before{
     content: url(../img/ita.png);

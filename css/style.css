@@ -8,6 +8,7 @@ nav{
     justify-content: space-around;
     padding: 3%;
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -17,6 +18,7 @@ header>main{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 4%;
+    color: white;
 }
 body>main{
     width: 70%;
@@ -31,9 +33,9 @@ section{
     display: flex;
     align-items: center;
 }
-.display-container.column{
+.column{
     flex-direction: column;
-    color: white;
+    
 }
 .center{
     justify-content: center;

@@ -13,6 +13,10 @@ a{
     color: white;
     padding: 2%;
 }
+header>main{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
 .display-container{
     display: flex;
 }
@@ -30,4 +34,7 @@ a{
 }
 .display-container.column{
     flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 4%;
 }

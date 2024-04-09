@@ -4,12 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-size: x-large;
+}
 nav{
     background-color: #255ee9;
     justify-content: space-around;
     padding: 3%;
 }
-
+.logo{
+    padding-left: ;
+}
 a{
     text-decoration: none;
     color: white;
@@ -21,6 +26,10 @@ header>main{
     padding: 4%;
     color: white;
 }
+nav>div{
+    flex-grow: 2;
+    justify-content: center;
+}
 section{
     padding: 4%;
 }
@@ -28,10 +37,11 @@ section{
 /* display  */
 .display-container{
     display: flex;
-    align-items: center;
+
 }
 .column{
     flex-direction: column;
+    align-items: center;
     
 }
 .center{
@@ -41,8 +51,10 @@ section{
 /* tasti  */
 button{
     border: none;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 1%;
+    margin-left: 1rem;
+    font-size: larger;
 }
 .wht-button{
     background-color: #ffffff;

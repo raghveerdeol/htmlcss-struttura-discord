@@ -33,7 +33,10 @@ nav>div{
 section{
     padding: 4%;
 }
-
+footer{
+    background-color: #23272a;
+    color: white;
+}
 /* display  */
 .display-container{
     display: flex;
@@ -69,4 +72,10 @@ section>button{
 /* tasti  */
 .bk-grey{
     background-color: #f6f6f6;
+}
+li::before{
+    content: url(../img/ita.png);
+}
+ul{
+    list-style: none;
 }

@@ -39,8 +39,14 @@ footer{
     background-color: #23272a;
     color: white;
 }
-main>p{
-    padding: 2rem;
+p{
+    padding: 2rem 0;
+}
+h2{
+    font-size: 215%;
+}
+.double-size{
+    width: 200%;
 }
 /* display  */
 .display-container{
@@ -89,12 +95,12 @@ button{
 .bg-blu{
     background-color: #7289da;
 }
+.color-blu{
+    color: #7289d9;
+}
 li::before{
     content: url(../img/ita.png);
 }
 ul{
     list-style: none;
-}
-.color-blu{
-    color: #7289d9;
 }

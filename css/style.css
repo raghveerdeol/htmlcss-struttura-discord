@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+nav{
+    background-color: #255ee9;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+.center{
+    justify-content: center;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.wht-button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    padding: 1%;
+}

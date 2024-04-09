@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-size: x-large;
+    font-size: xx-large;
     font-family: "Cabin", sans-serif;
 }
 nav{
@@ -21,20 +21,26 @@ a{
 header>main{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 4%;
+    padding: 5%;
     color: white;
 }
 nav>div{
     flex-grow: 2;
     justify-content: center;
 }
-
+body>main{
+    width: 70%;
+    margin: 0 auto;
+}
 section{
     padding: 4%;
 }
 footer{
     background-color: #23272a;
     color: white;
+}
+main>p{
+    padding: 2rem;
 }
 /* display  */
 .display-container{
@@ -56,6 +62,9 @@ footer{
 }
 .space-between{
     justify-content: space-between;
+}
+.last-img{
+    width: 100%;
 }
 /* display  */
 /* tasti  */

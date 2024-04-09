@@ -6,6 +6,7 @@
 nav{
     background-color: #255ee9;
     justify-content: space-around;
+    padding: 3%;
 }
 a{
     text-decoration: none;
@@ -15,9 +16,24 @@ a{
 header>main{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    padding: 4%;
 }
+body>main{
+    width: 70%;
+    margin: 0 auto;
+}
+section{
+    padding: 4%;
+}
+
+/* display  */
 .display-container{
     display: flex;
+    align-items: center;
+}
+.display-container.column{
+    flex-direction: column;
+    color: white;
 }
 .center{
     justify-content: center;
@@ -25,6 +41,8 @@ header>main{
 .flex-end{
     justify-content: flex-end;
 }
+/* display  */
+/* tasti  */
 button{
     border: none;
     border-radius: 1rem;
@@ -37,8 +55,5 @@ button{
     background-color: black;
     color: #ffffff;
 }
-.display-container.column{
-    flex-direction: column;
-    align-items: center;
-    color: white;
-}
+/* tasti  */
+
